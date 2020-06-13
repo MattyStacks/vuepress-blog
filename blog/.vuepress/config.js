@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'VuePress Blog Example',
-  description: 'A blog powered by VuePress',
+  title: 'The ShantySite Blog',
+  description: 'My blog written in VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
@@ -31,16 +31,16 @@ module.exports = {
       contact: [
         {
           type: "github",
-          link: "https://github.com/newsbielt703"
+          link: "https://github.com/datapotomus"
         },
         {
           type: "mail",
-          link: "mailto:newsbielt703@gmail.com"
+          link: "mailto:matthew.therault@gmail.com"
         }
       ],
       copyright: [
         {
-          text: "Billy Chin © 2020",
+          text: "Matt Therault © 2020",
           link: ""
         }
       ]
