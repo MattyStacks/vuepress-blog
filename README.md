@@ -1,31 +1,36 @@
-<h1 align="center">Welcome to vuepress-blog-template 👋</h1>
+<h1 align="center">My VuePress Blog 👋</h1>
 <p>
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
 
-> VuePress default blog theme template for quick start
+> My Vuepress blog
 
 ## Install
 
+Full VuePress installation instructions are located here:
+[https://vuepress.vuejs.org/theme/blog-theme.html#blog-theme](https://vuepress.vuejs.org/theme/blog-theme.html#blog-theme)
+
+
 ```sh
 yarn install
+yarn add vuepress @vuepress/theme-blog -D
 ```
 
 ## Usage
 
 ```sh
-yarn dev   # development
-yarn build # production
+vuepress dev blog
+vuepress build blog
 ```
 
 ## Author
 
-👤 **Billyyyyy3320**
+👤 **MattyStacks**
 
-- Website: [billyyyyy3320.com](https://billyyyyy3320.com)
-- Github: [@newsbielt703](https://github.com/newsbielt703)
+- Website: [shantysite.com](https://shantysite.comj)
+- Github: [@datapotomus](https://github.com/Datapotomus)
 
 ---
 
