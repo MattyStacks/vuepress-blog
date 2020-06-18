@@ -2,7 +2,18 @@ module.exports = {
   title: 'ShantySite Blog',
   description: 'My blog written in VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
+  head: [
+    ['link', { rel: 'icon', href: '/logo.png' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/android-chrome-192x192.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+  ],
   themeConfig: {
+    logo: 'apple-touch-icon.png',
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#dateformat
      */
