@@ -2,7 +2,6 @@ module.exports = {
   title: 'ShantySite Blog',
   description: 'My blog written in VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
-  base: "/",
   head: [
     ['link', { rel: 'icon', href: 'logo.png' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
