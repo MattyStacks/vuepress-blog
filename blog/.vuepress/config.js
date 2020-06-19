@@ -2,8 +2,9 @@ module.exports = {
   title: 'ShantySite Blog',
   description: 'My blog written in VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
+  base: "/",
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }],
+    ['link', { rel: 'icon', href: 'logo.png' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -24,16 +25,17 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#nav
      */
 
-    // nav: [
-    //   {
-    //     text: 'Blog',
-    //     link: '/',
-    //   },
-    //   {
-    //     text: 'Tags',
-    //     link: '/tag/',
-    //   },
-    // ],
+    nav: [
+      {
+        text: 'Blog',
+        link: '/',
+      },
+      {
+        text: 'Tags',
+        link: '/tag/',
+      },
+      { text: 'Swag', link: 'https://www.teepublic.com/user/shantysite/t-shirts' }
+    ],
 
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#footer
