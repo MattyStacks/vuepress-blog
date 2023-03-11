@@ -43,7 +43,7 @@ module.exports = {
       contact: [
         {
           type: "github",
-          link: "https://github.com/datapotomus"
+          link: "https://github.com/MattyStacks"
         },
         {
           type: "mail",
@@ -52,7 +52,7 @@ module.exports = {
       ],
       copyright: [
         {
-          text: "Matt Therault © 2020",
+          text: "Matt Therault © 2020-present",
           link: ""
         }
       ]

@@ -30,7 +30,7 @@ vuepress build blog
 👤 **MattyStacks**
 
 - Website: [shantysite.com](https://shantysite.comj)
-- Github: [@datapotomus](https://github.com/Datapotomus)
+- Github: [@datapotomus](https://github.com/MattyStacks)
 
 ---
 
